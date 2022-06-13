@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paciente.EditarFragment">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            tools:context=".paciente.EditarActivity">
+            <TextView
+                android:id="@+id/tvNome"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nome" />
+
+            <EditText
+                android:id="@+id/etNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tvGrpSan"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grupo_sanguineo" />
+
+            <Spinner
+                android:id="@+id/spGrpSan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvLogradouro"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logradouro" />
+
+            <EditText
+                android:id="@+id/etLogradouro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tvNumero"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numero" />
+
+            <EditText
+                android:id="@+id/etNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tvCidade"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cidade" />
+
+            <EditText
+                android:id="@+id/etCidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tvUf"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uf" />
+
+            <Spinner
+                android:id="@+id/spUf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCelular"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celular" />
+
+            <EditText
+                android:id="@+id/etCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tvFixo"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fixo" />
+
+            <EditText
+                android:id="@+id/etFixo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnEditar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/editar"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/btnExcluir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/excluir"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ConMed</string>
+    <string name="paciente">Paciente</string>
+    <string name="medico">Médico</string>
+    <string name="consulta">Consulta</string>
+    <string name="listar_pacientes">Listar Pacientes</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="nome">Nome</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
+    <string name="ligar">Ligar</string>
+    <string name="grupo_sanguineo">Grupo Sanguíneo</string>
+    <string name="numero">Número</string>
+    <string name="cidade">Cidade</string>
+    <string name="uf">UF</string>
+    <string name="celular">Celular</string>
+    <string name="fixo">Fixo</string>
+    <string name="criar">Criar</string>
+    <string name="home">Home</string>
+    <string name="inicio">Início</string>
+</resources>
